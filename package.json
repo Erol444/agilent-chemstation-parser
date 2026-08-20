@@ -1,0 +1,22 @@
+{
+  "name": "agilent-chemstation-parser",
+  "version": "1.0.0",
+  "description": "Read Agilent ChemStation .ch and .uv files in JavaScript. Converts to CSV. No dependencies.",
+  "type": "module",
+  "main": "parser.mjs",
+  "exports": { ".": "./parser.mjs" },
+  "files": ["parser.mjs", "README.md", "LICENSE"],
+  "scripts": {
+    "test": "node test.mjs",
+    "hexcheck": "node hexcheck.mjs",
+    "fetch-samples": "./fetch-samples.sh"
+  },
+  "keywords": [
+    "agilent", "chemstation", "openlab", "chromatography", "hplc", "gc",
+    "ch", "uv", "dad", "fid", "csv", "parser"
+  ],
+  "homepage": "https://peakwright.com",
+  "repository": { "type": "git", "url": "git+https://github.com/Erol444/agilent-chemstation-parser.git" },
+  "license": "MIT",
+  "engines": { "node": ">=18" }
+}
